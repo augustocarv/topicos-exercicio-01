@@ -10,7 +10,7 @@ const CartItem = ({ item, quantity, onRemove }) => {
         className={classNames({
           ["bought"]: hasBought,
         })}>
-        {item} - {quantity}
+        {quantity} - {item}
       </p>
       <div>
         <button

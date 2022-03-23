@@ -43,9 +43,18 @@
   padding-bottom: 0;
   font-size: 18px;
 }
-.App .lista-items li:nth-child(2n) {
+
+.App .lista-items .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px;
+  height: 100%;
+}
+.App .lista-items div:nth-child(2n) {
   background-color: #fcfcfc;
 }
-.App .lista-items li + li {
+.App .lista-items div + div {
   margin-top: 7px;
 }
